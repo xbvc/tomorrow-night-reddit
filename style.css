@@ -1,0 +1,539 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+body {
+  font-family:'Droid Sans', Arial, sans-serif;
+  background: #3b3b3b;
+}
+
+a {
+  color: #6baac9; /* light blue */
+}
+
+a:visited {
+  color: #c498d0; /* light purple */
+}
+
+::selection {
+  background: #141414;
+  color: #f2f2f2;
+}
+
+.keyHighlight {background-color:#222;}
+
+/* HEADER
+-----------------------------------------------------------*/
+
+#sr-header-area {
+  background: #333;
+  border-bottom: 1px solid #111;
+  color: #ccc;
+}
+
+#sr-header-area a {
+  color: #ccc;
+}
+
+.subbarlink .RESShortcutsCurrentSub {
+  color: #ee7564; /* light red */
+}
+
+.RESShortcutsCurrentSub:visited {
+  color: #ee7564 !important; /* light red */
+}
+
+#header {
+  background: #222;
+  border-bottom: 1px solid #111;
+  height: 57px;
+}
+
+/* RES Thing */
+#header-bottom-right { 
+  background-color: transparent;
+  color: #333;
+  top: 25px !important;
+}
+
+  #header-bottom-right a {
+    color: #f2f2f2;
+  }
+
+  #userbarToggle {
+    border-right: none;
+    background: transparent;
+  }
+
+  #RESShortcutsEditContainer {
+    background-color: transparent;
+  }
+
+  #RESShortcutsRight, 
+  #RESShortcutsLeft, 
+  #RESShortcutsAdd, 
+  #RESShortcutsTrash {
+    background: transparent;
+    background-color: transparent;
+  }
+
+#header-img.default-header {
+  background: none;
+  width: 0px;
+  height: 0px;
+}
+
+#header-bottom-left {
+  font-size: 11px;
+  margin-top: 15px;
+}
+
+.pagename a {
+  color: #f2f2f2;
+}
+
+.pagename {
+  color: #f2f2f2;
+}
+
+.tabmenu li {
+  font-weight: normal;
+  margin: 0px -1px;
+}
+
+.tabmenu li a {
+  background: #333;
+  border: 1px solid #111;
+  color: #adadad;
+  padding: 5px 15px;
+}
+
+.tabmenu li.selected a {
+  background: #3b3b3b;
+  border: 1px solid #111;
+  border-bottom: 1px solid #3b3b3b;
+  color: #f2f2f2;
+}
+
+#RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash {
+  color: #ccc;
+}
+
+.userbarShow,
+.userbarHide {
+  background: none !important;
+  border: none !important;
+ }
+
+
+
+/* SIDEBAR
+-----------------------------------------------------------*/
+
+.side {
+  background: #333;
+  padding-left: 10px;
+  border-left: 1px solid #222;
+  border-bottom: 1px solid #222;
+  color: #ccc;
+}
+
+.side a {
+  color: #6baac9; /* light blue */
+}
+
+.titlebox h1 a {
+  color: #f2f2f2;
+}
+
+#search input[type="text"] {
+  background: #222;
+  border: 1px solid #141414;
+  color: #ccc;
+  font-size: 12px;
+  height: 22px;
+  padding-left: 5px;
+  width: 280px;
+}
+
+#search ::-webkit-input-placeholder,
+#search ::-moz-placeholder,
+#search ::-ms-input-placeholder {
+  color: #333;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.infobar {
+  border: 1px solid #fdcd50; /* yellow */
+  color: #222;
+}
+
+.infobar a {
+  color: #141414;
+}
+
+.linkinfo {
+  color: #ccc;
+  border: 1px solid #6baac9; /* light blue */
+  background: transparent;
+}
+  .linkinfo .upvotes {
+    color: #9ccc93; /* light green */
+  }
+  .linkinfo .downvotes {
+    color: #ee7564; /* light red */
+  }
+
+.sidebox .spacer {
+  background: transparent !important;
+}
+
+.goldvertisement .inner {
+  color: #ccc;
+}
+
+.goldvertisement .inner a {
+  color: #9A7D2E; /* gold */
+}
+
+.titlebox form.toggle, .leavemoderator {
+  background-color: #333;
+  color: #ccc;
+}
+
+/* LINKS
+-----------------------------------------------------------*/
+
+.menuarea {
+  border-bottom: 1px solid #222;
+  color: #ccc;
+}
+
+.dropdown-title .lightdrop {
+
+} 
+
+.menuarea .separator {
+  color: #222;
+}
+
+.flat-list .selected a {
+  color: #ee7564; /* light red */
+}
+
+.link {
+  margin-bottom: 15px;
+}
+
+.entry {
+  padding-left: 10px;
+}
+
+.thing .title.loggedin {
+  color: #6baac9; /* light blue */
+}
+
+.thing .title.loggedin:visited {
+  color: #c498d0; /* light purple */
+}
+
+.thing .title.loggedin.click {
+  color: #c498d0; /* light purple */
+}
+
+.thing .title.loggedin.click:visited {
+  color: #c498d0; /* light purple */
+}
+
+
+.keyHighlight {
+  background: #333;
+  outline: 1px dashed #222;
+}
+
+.tagline {
+  color: #ccc;
+}
+
+.tagline a {
+  color: #6baac9; /* light blue */
+}
+
+.entry .buttons li a {
+  color: grey;
+}
+
+a.voteWeight {
+  color: #fdcd50 !important;
+  background: transparent !important;
+}
+
+.link .usertext .md {
+
+}
+
+.thing .title:visited {
+  color: #c498d0; /* light purple */
+}
+
+.nsfw-stamp acronym {
+  color: #e92b1d; /* nsfw red */
+  border: none !important;
+}
+
+.newComments {
+  color: #ee7564; /* light red */
+}
+
+.link .usertext .md {
+  background: transparent;
+  border: none;
+}
+
+
+/* VOTING
+-----------------------------------------------------------*/
+
+.arrow.up, .arrow.down {
+  opacity: 0.2;
+}
+  .arrow.downmod {
+
+  }
+
+.arrow.upmod {
+  background-image: url('http://i.imgur.com/N7l1G.png');
+}
+
+.arrow.downmod {
+  background-image: url('http://i.imgur.com/N7l1G.png');
+}
+
+.link .score, .link .rank {
+  color: #535353;
+}
+
+  .link .score.likes {
+    color: #9ccc93; /* light green */
+  }
+
+  .link .score.dislikes {
+    color: #ee7564; /* light red */
+  }
+
+
+
+
+.res_post_ups {
+  color: #9ccc93; /* light green */
+}
+
+.res_post_downs {
+  color: #ee7564; /* light red */
+}
+
+
+/* Images
+-----------------------------------------------------------*/
+
+.expando-button {
+  background: transparent;
+}
+
+/* bbb */
+.expando-button.image {
+  background: url('http://i.imgur.com/hrYj9.png');
+}
+
+.RESUserTagImage {
+  background-image: url('http://i.imgur.com/hrYj9.png');
+  opacity: 0.3;
+}
+
+/* ccc */
+.expando-button.selftext {
+  background-image: url('http://i.imgur.com/N7l1G.png') !important;
+}
+
+  .expando-button.selftext.collapsed:hover, .eb-sch {
+    background-image: none;
+  }
+
+  .expando-button.selftext.collapsed {
+    background-image: none;
+  }
+
+.fancy-toggle-button .remove {
+  background-image: url('http://i.imgur.com/N7l1G.png');
+}
+
+.RESDashboardToggle {
+  background-image: url('http://i.imgur.com/N7l1G.png');
+}
+
+/* MISC
+-----------------------------------------------------------*/
+
+.NERPageMarker {
+  background-color: #333;
+  border: 1px solid #111;
+  color: #ccc;
+}
+
+.RESDropdownList {
+  background-color: #333;
+  border: 1px solid #111;
+}
+
+  .RESDropdownList li {
+    border-bottom: 1px solid #222;
+  }
+
+  .RESDropdownList li:hover, .RESDropdownList li a:hover {
+    background-color: #222;
+    color: #f2f2f2;
+  }
+
+  .moduleToggle span, .toggleButton span {
+
+  }
+
+/* PAGE
+-----------------------------------------------------------*/
+
+.panestack-title .title {
+  color: #f2f2f2;
+}
+
+#REScommentNavToggle {
+  width: 80%;
+}
+
+.commentarea .menuarea {
+  margin: 15px 310px 10px 10px;
+}
+
+.RESSubscriptionButton {
+  border: none;
+  margin-left: 0px;
+  color: #6baac9; /* light blue */
+}
+
+.commentingAs {
+  color: #f2f2f2;
+  margin-bottom: 5px;
+}
+
+.markdownEditor a {
+  color: #6baac9; /* light blue */
+  margin-bottom: 3px;
+}
+
+/* PAGE COMMENTS
+-----------------------------------------------------------*/
+
+.usertext-edit textarea {
+  background: #666;
+  color: #F2F2F2;
+  border: #222;
+}
+
+.comment .md p > a:visited {
+  color: #c498d0; /* light purple */
+}
+
+.comment {
+  border-radius: 0px !important;
+  -webkit-border-radius: 0px !important;
+  -o-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border: 1px solid #222 !important;
+
+  background-color: transparent !important;
+}
+
+.comment .comment {
+  background-color: #333 !important;
+}
+
+.comment .comment .comment {
+  background-color: #3b3b3b !important;
+}
+
+.comment .comment .comment .comment {
+  background-color: #333 !important;
+}
+
+.comment .comment .comment .comment .comment {
+  background-color: #3b3b3b !important;
+}
+
+.comment .comment .comment .comment .comment .comment {
+  background-color: #333 !important;
+}
+
+.comment .comment .comment .comment .comment .comment .comment {
+  background-color: #3b3b3b !important;
+}
+
+.comment .comment .comment .comment .comment .comment .comment .comment {
+  background-color: #333 !important;
+}
+
+.comment .comment .comment .comment .comment .comment .comment .comment .comment {
+  background-color: #3b3b3b !important;
+}
+
+.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+  background-color: #333 !important;
+}
+
+.res_comment_ups {
+  color: #9ccc93; /* light green */
+}
+
+.res_comment_downs {
+  color: #ee7564; /* light red */
+}
+
+.usertext-body {
+  color: #f2f2f2;
+}
+
+
+/* SETTINGS
+-----------------------------------------------------------*/
+
+.content .preftable {
+  color: #ccc;
+}
+
+.pretty-form input[type="text"], 
+.pretty-form input[type="file"], 
+.pretty-form input[type="password"], 
+.pretty-form select, .pretty-form b, 
+.pretty-form textarea, .pretty-form button {
+  background: #333;
+  color: #CCC;
+  border: 1px solid #111;
+  padding: 1px 2px;
+}
+
+input.btn {
+  background: #333;
+  color: #ccc;
+  border: 1px solid #111;
+  padding: 3px 10px;
+}
+
+/* PROFILE
+-----------------------------------------------------------*/
+
+.thing .title {
+  color: #6baac9; /* light blue */
+}
+
+
+#header-img {
+  position: fixed;
+  visibility: hidden;
+}
